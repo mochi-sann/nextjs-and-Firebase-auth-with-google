@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"]
+    },
     "allowJs": true,
     "alwaysStrict": true,
     "esModuleInterop": true,
